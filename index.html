@@ -29,7 +29,19 @@
         <div class="container">
            <div id="form" class="row">
                 <div class="col-sm-6">
-                    form
+                    <br>
+                    <form action="pages/checklogin.php" method="post">
+                        <label for="">نام کاربری:</label>
+                        <input type="text" name="userId" minlength="4" required placeholder="نام کاربری">
+                        <label for="">*</label>
+                        <br>
+                        <label for="">رمز عبور:</label>
+                        <input type="password" name="userPW" required placeholder="رمز عبور">
+                        <label for="">*</label>
+                        <br>
+                        <input type="reset" name="btnReset" value="پاک کردن">
+                        <input type="submit" name="btnSubmit" value="ورود">
+                    </form>
                 </div>
                 <div id="news" class="col-sm-6">
                     news
@@ -39,7 +51,21 @@
     </header>
     <!--Footer-->
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://t.me/m_nemati1396">
 
+                    </a>
+                    <a href="https://twitter.com/m_nemati1396">توییتر</a>
+                    <a href="https://instagram.com/m_nemati1396">اینستاگرام</a>
+
+                </div>
+                <div class="col-sm-6">
+                    map
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!--Load javascript Files -->
